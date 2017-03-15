@@ -19,7 +19,7 @@ This is a 3 step process:
 
 ![alt text](https://raw.githubusercontent.com/SolaceLabs/solace-gcp-quickstart/master/images/gce_launch_2.png "GCE Image creation 2")
 
-Cut and paste the code into the panel, replace -link to VMR Docker Image- with the link you recieved in step one.
+Cut and paste the code into the panel, replace -link to VMR Docker Image- with the link you received in step one.
 
 ```
 #!/bin/bash
@@ -34,7 +34,7 @@ fi
 ```
 
 # Set up network security to allow access
-Now that the VMR is instantated, the network security firewall rule needs to be set up to allow access to both the admin application and data traffic.  Under the networking->firewall tab add a new rule to your project exposing the required ports:
+Now that the VMR is instantiated, the network security firewall rule needs to be set up to allow access to both the admin application and data traffic.  Under the networking->firewall tab add a new rule to your project exposing the required ports:
 
 ![alt text](https://raw.githubusercontent.com/SolaceLabs/solace-gcp-quickstart/master/images/gce_network.png "GCE Firewall rules")
 
@@ -43,7 +43,7 @@ For more information on Google Cloud Platform Firewall rules see [Networking and
 
 # Gaining admin access to the VMR
 
-For persons used to working with Solace message router console access, this is still available with the google compute engine instance.  Access the web ssh terminal window by clicking the [ssh] button next to your VMR instance,  then launch a SolOS cli session:
+For persons used to working with Solace message router console access, this is still available with the Google Compute Engine instance.  Access the web ssh terminal window by clicking the [ssh] button next to your VMR instance,  then launch a SolOS cli session:
 
 ![alt text](https://raw.githubusercontent.com/SolaceLabs/solace-gcp-quickstart/master/images/gce_console.png "GCE console with SolOS cli")
 
